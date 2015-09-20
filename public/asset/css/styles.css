@@ -1,0 +1,108 @@
+/** Home Page **/
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 96%;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    left: 0;
+    position: relative;
+    right: 0;
+    /*z-index: 1030;*/
+    z-index: 1030;
+}
+.navbar-left{
+    width: 99%;
+}
+.list-group-item{
+    width: 90%;
+}
+.footer-fixed{
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1000000;
+    background: #efefef;
+    padding-top: 5px;
+}
+
+
+
+
+/** add field style **/
+.option_class{
+       width: 200px;
+       padding: 3px;
+       margin-bottom: 10px;
+}
+
+
+.answer_class{
+    width: 200px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+
+.remove{
+    cursor: pointer;
+    border: 1px solid #efefef;
+    background: #efefef;
+    margin: 5px;
+}
+.add_button{
+    background: #efefef;
+    padding: 3px;
+    cursor: pointer;
+}
+/***********For amw course config************/
+/*.acm_course_config_list input{*/
+    /*width: 70px;*/
+/*}*/
+.small-header-table th{font-size: 12px; }
+.acm_course_config_list input[type="text"]{
+    width: 60px;
+}
+/***********For amw course config************/
+/*.acm_course_config_list input{*/
+/*width: 70px;*/
+/*}*/
+.small-header-table th{font-size: 12px; }
+.acm_course_config_list input[type="text"]{
+    width: 60px;
+}
+/***********For amw course config************/
+.acm_course_config_list input[type=text]{
+    width: 60px;
+}
+.small-header-table th{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/**********For Academic faculty marks distribution******************/
+#amwCourseConfig input[type="text"], .acm_marks_dist_list input[type="text"]
+{
+    width: 70px;
+}
+
+.modal-dialog{
+    margin: 50px auto;
+}
+
+
+.close_button{
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+.close_button:hover{
+    filter: alpha(opacity=90);
+    opacity: .9;
+}
